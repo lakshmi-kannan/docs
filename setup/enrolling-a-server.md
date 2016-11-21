@@ -37,6 +37,9 @@ On Linux, the appropriate path is `/var/lib/sftd/enrollment.token`.
 
 On Windows, the appropriate path is `C:\windows\system32\config\systemprofile\AppData\Local\ScaleFT\enrollment.token`.
 
+To validate that the server is enrolled, run `sft list-servers` on
+a client machine. You should see the enrolled server listed.
+
 #### Associating an AWS Account with a ScaleFT Project
 
 ScaleFT supports optionally associating an AWS account with a ScaleFT project.

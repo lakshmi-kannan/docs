@@ -46,4 +46,6 @@ ggreer@carbon:~%
 
 </div>{{% /terminal %}}
 
-At this point, you can [ssh to your enrolled servers]({{% relref "ssh.md" %}}) using Client Certificate Authentication.
+At this point, you can [ssh to your enrolled servers]({{% relref "ssh.md" %}})
+using Client Certificate Authentication. To see the list of enrolled servers,
+run `sft list-servers`.
